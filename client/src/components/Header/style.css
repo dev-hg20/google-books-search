@@ -1,0 +1,22 @@
+.jumbotron {
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  padding-bottom: 40px;
+  margin: auto;
+  padding-left: 20px;
+  padding: 20px;
+}
+
+h1 {
+  padding-bottom: 40px;
+  margin: auto;
+  font-size: 60px;
+}
+
+.navbar-nav {
+  margin: 15px;
+  text-align: center;
+  width: 100%;
+  font-size: 20px;
+  justify-content: center;
+}
