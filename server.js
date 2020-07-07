@@ -17,7 +17,8 @@ app.use(routes);
 
 // Connect to the Mongo DB
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/reactreadinglist"
+  process.env.MONGODB_URI || "mongodb://localhost/reactreadinglist",
+  { useUnifiedTopology: true, useNewUrlParser: true, useCreateIndex: true }
 );
 
 // Start the API server
